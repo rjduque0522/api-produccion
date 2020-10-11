@@ -22,7 +22,6 @@ $router->get('/', function () use ($router) {
 $router->get('/produccion', 'ProduccionController@index');
 $router->get('/produccion/{id_produccion}', 'ProduccionController@getProduccion');
 $router->post('/produccion', 'ProduccionController@createProduccion');
-
 $router->post('/produccion/{id_produccion}', 'ProduccionController@updateProduccion');
 $router->delete('/produccion/{id_produccion}', 'ProduccionController@deleteProduccion');
 
